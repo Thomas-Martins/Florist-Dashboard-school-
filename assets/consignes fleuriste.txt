@@ -1,0 +1,30 @@
+Pour l'application de fleuriste, voici une liste des pages que j'aimerais voir :
+
+-page index.php (la page d'accueil de votre application) fait
+
+-Dans la partie client,
+	une page qui liste les clients, 										fait
+	une page qui affiche les commandes d'un client, 							fait 
+	une qui ajoute un client, 											fait 
+	une page qui modifie un client, 										fait 
+	une page qui supprime un client, 										fait 
+
+- Dans la partie fleur,
+	une page qui liste les fleurs, 											fait 
+	une page qui permet d'ajouter une variété de fleur, 						fait
+	une page qui permet d'ajouter une couleur de fleur,							fait
+	une page qui permet d'ajouter une fleur,									fait
+
+- Dans la partie fournisseur,
+	une page qui liste les fournisseurs										fait
+	une page qui ajoute un fournisseur										fait
+	une page qui permet de modifier les infos d'un fournisseur					fait
+	une page qui permet d'ajouter le fait qu'un fournisseur fournisse une fleur,
+	une page qui permet de change le stock des fleurs fournies par le fournisseur
+
+- Dans la partie commande,
+	une page qui liste les commandes,										fait
+	une page qui affiche les infos d'une commande,
+	une page ajoute une commande (attention pour ajouter une commande,il faut d'abord ajouter une ligne commande 
+	et il faut diminuer le stock de la fleur) --- c'est la page la plus complexe de l'application
+	une page qui modifie les infos d'une commande

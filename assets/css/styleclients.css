@@ -1,0 +1,73 @@
+*, *::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit',sans-serif;
+}
+/* ==== Header Start ==== */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    margin-bottom: 20px;
+    background: rgb(42, 82, 42);
+}
+.left-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar ul{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.navbar a:hover{
+    color: rgb(24, 46, 24);
+}
+.log-btn{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+/* ==== Header End ==== */
+/* ==== Container Start ==== */
+.container{
+    padding: 0px 50px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.tableau{
+    margin: 60px auto;
+    width: 100%;
+}
+a {
+    color: rgb(42, 82, 42);
+}
+td{
+    height: 75px;
+}
+td, th{
+    border-bottom: solid 2px black;
+}
+tr:nth-child(2n+1):hover{
+    background-color: rgb(238, 235, 235);
+}
+.infos{
+    margin: 50px 0px;
+}

@@ -1,0 +1,99 @@
+*, *::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit',sans-serif;
+}
+/* ==== Header Start ==== */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    margin-bottom: 20px;
+    background: rgb(42, 82, 42);
+}
+.left-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar ul{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.navbar a:hover{
+    color: rgb(24, 46, 24);
+}
+.log-btn{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+/* ==== Header End ==== */
+
+/* ==== Container Start ==== */
+.container{
+    padding: 50px;
+    height: 900px;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 100px;
+}
+.section-card img{
+    width: 550px;
+    height: 350px;
+    filter: brightness(0.4);
+    z-index: -1;
+}
+.section-card h2{
+   margin-top: -80px;
+   margin-left: 20px;
+   position: relative;
+   z-index: 1;
+   color: white;
+}
+form{
+   margin: 20px;
+}
+form input{
+    margin: auto;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+}
+form #tel, #address, #submit{
+    width: 100%;
+}
+.menu{
+    margin-bottom: 100px;
+}
+.img-fpage{
+    text-align: center;
+}
+.title{
+    margin-left: 80px;
+}
+/* ==== Container End ==== */
+
+/* ==== Footer Start ==== */
+footer{
+    text-align: center;
+    background: rgb(53, 53, 53);
+    color: white;
+    line-height: 100px;
+}
+/* ==== Footer End ==== */
